@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>WEB700</title>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	</head>
+
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="#">Student Name</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+					<li class="nav-item active"><a class="nav-link" href="/htmlDemo">Html Demo</a></li>
+				</ul>
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"><a class="nav-link" href="/students">Students</a></li>
+					<li class="nav-item"><a class="nav-link" href="/tas">Teaching Assistants</a></li>
+					<li class="nav-item"><a class="nav-link" href="/courses">Courses</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<div class="container">
+			<div class="row">
+				<main class="col-md-12">
+
+
+
+					<!-- Start your code here -->
+					
+					<h1>HTML Demo</h1>
+
+					<!-- Tables Section -->
+					<h2  class="m-4">Table 1</h2>
+					<table class="table">
+						<thead>
+						  <tr>
+							<th scope="col">#</th>
+							<th scope="col">Name</th>
+							<th scope="col">Age</th>
+							<th scope="col">City</th>
+						  </tr>
+						</thead>
+						<tbody>
+						  <tr>
+							<th scope="row">1</th>
+							<td>John Doe</td>
+							<td>28</td>
+							<td>New York</td>
+						  </tr>
+						  <tr>
+							<th scope="row">2</th>
+							<td>Jane Smith</td>
+							<td>34</td>
+							<td>Los Angeles</td>
+						  </tr>
+						  <tr>
+							<th scope="row">3</th>
+							<td colspan="2">Michael Johnson</td>
+							<td>Chicago</td>
+						  </tr>
+						</tbody>
+					  </table>
+					  
+					  <h2 class="m-4">Table 2</h2>
+					  <table class="table">
+						<thead>
+						  <tr>
+							<th scope="col">#</th>
+							<th scope="col">Product</th>
+							<th scope="col">Category</th>
+							<th scope="col">Price</th>
+						  </tr>
+						</thead>
+						<tbody>
+						  <tr>
+							<th scope="row">1</th>
+							<td>Laptop</td>
+							<td>Electronics</td>
+							<td>$999</td>
+						  </tr>
+						  <tr>
+							<th scope="row">2</th>
+							<td>Table</td>
+							<td>Furniture</td>
+							<td>$150</td>
+						  </tr>
+						  <tr>
+							<th scope="row">3</th>
+							<td colspan="2">Smartphone</td>
+							<td>$799</td>
+						  </tr>
+						</tbody>
+					  </table>
+					  
+			
+				
+					<!-- Lists Section -->
+					<h2 class="m-4">Lists</h2>
+					<ol>
+						<li>First item</li>
+						<li>Second item</li>
+						<li>Third item
+							<ul>
+								<li>Sub-item 1</li>
+								<li>Sub-item 2</li>
+								<li>Sub-item 3</li>
+							</ul>
+						</li>
+						<li>Fourth item</li>
+						<li>Fifth item</li>
+					</ol>
+					
+					<!-- Images Section -->
+					<div class="images row">
+						<h2 class="m-4">Images</h2>
+					<div class="row align-items-start">
+						<div class="col-4">
+							<img class="img-fluid img-thumbnail rounded mx-auto" src="https://upload.wikimedia.org/wikipedia/commons/6/69/Snowboarder_in_halfpipe.jpg" alt="Snowboarder in halfpipe">
+						</div>
+						<div class="col-4">
+							<img class="img-fluid img-thumbnail rounded mx-auto" src="https://wallpapers.com/images/featured/super-cool-pictures-h943jt67w6kqn4e6.jpg" alt="PNG transparency demonstration">
+						</div>
+						<div class="col-4">
+							<img class="img-fluid img-thumbnail rounded mx-auto" src="https://png.pngtree.com/thumb_back/fh260/background/20230720/pngtree-blue-and-purple-neon-star-3d-art-background-with-a-cool-image_3705286.jpg" alt="PNG transparency demonstration">
+						</div>
+					</div>
+					</div>
+					
+					
+					
+				
+					
+					<div class="multimedia row">
+					<div class="col-md-6 audio">
+					<!-- Audio Section -->
+					<h2 class=" m-4 mb-3">Audio</h2>
+					
+					<audio controls>
+						<source src="https://pat-crawford-sdds.netlify.app/shared/fall-2021/web700/A3/sample-audio.mp3" type="audio/mpeg">
+						<source src="https://pat-crawford-sdds.netlify.app/shared/fall-2021/web700/A3/sample-audio.ogg" type="audio/ogg">
+						Your browser does not support the audio element.
+					</audio>
+					</div>
+					
+					
+					<!-- Video Section -->
+					<div class="video col-md-6">
+						<h2 class="m-4">Video</h2>
+					<video controls>
+						<source src="https://pat-crawford-sdds.netlify.app/shared/fall-2021/web700/A3/sample-video.mp4" type="video/mp4">
+						<source src="https://pat-crawford-sdds.netlify.app/shared/fall-2021/web700/A3/sample-video.ogg" type="video/ogg">
+						<source src="https://pat-crawford-sdds.netlify.app/shared/fall-2021/web700/A3/sample-video.webm" type="video/webm">
+						Your browser does not support the video element.
+					</video>
+					</div>
+					
+					</div>
+					
+				
+					
+					<!-- End your code here  -->
+
+
+
+				</main>
+			</div>
+		</div>
+
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	</body>
+</html>
